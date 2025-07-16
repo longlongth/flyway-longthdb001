@@ -29,4 +29,4 @@ ignoreNewlinesInTextObjects = "off"
 [environments.longthdb001-prod]
 url = "jdbc:postgresql://localhost:5432/longthdb001-prod"
 schemas = [ "longth001" ]
-displayName = "deployment db"
+displayName = "longthdb001 production"
