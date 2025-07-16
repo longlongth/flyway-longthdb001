@@ -1,0 +1,3 @@
+CREATE SCHEMA IF NOT EXISTS longth001
+    AUTHORIZATION postgres;
+

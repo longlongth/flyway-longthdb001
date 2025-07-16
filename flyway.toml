@@ -26,7 +26,7 @@ detectRenames = "identical-only"
 [redgateCompare.postgresql.options.ignores]
 ignoreNewlinesInTextObjects = "off"
 
-[environments.longthdb001-local]
-url = "jdbc:postgresql://localhost:5432/longthdb001"
+[environments.longthdb001-prod]
+url = "jdbc:postgresql://localhost:5432/longthdb001-prod"
 schemas = [ "longth001" ]
-displayName = "longthdb001"
+displayName = "deployment db"
